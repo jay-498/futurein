@@ -1,0 +1,98 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+.mont{
+	font-family: monteserrat;
+}
+
+.br{
+	border-radius: 20px;
+}
+
+#title{
+	color: #66CDAA;
+	text-align: center;
+	border-radius: 10px;
+	background-color: black;
+	width: 12em;
+}
+
+#title:hover
+{
+	background-color: #FFC0CB;
+	border-radius: 10px;
+	transition: .5s;
+	box-shadow: 0 20px 20px rgba(0,0,0,.5);
+	color: black;
+}
+
+.navbar-nav li a{
+	color: white;
+}
+
+
+.navbar-nav li a:hover 
+{
+	color: black;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #F08080;
+	transition: all 0.5s ease-in-out;
+}
+
+.navbar-expand-lg
+ {
+ 	background-image: url(navbg2.jpg);
+ }
+
+.start 
+{
+	/*background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://wallpaperplay.com/walls/full/5/e/2/45632.jpg);*/
+    opacity: 90%;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(space.jpg);
+}
+
+.intro h1{
+	background-color: black;
+	color: #F08080;
+	text-align: center;
+	border-radius: 20px 20px 0px 0px;
+}
+
+button{
+	border-radius: 20px;
+}
+
+.intro p{
+	padding: 20px;
+	font-weight: 550;
+	color: black;
+	background-color: #F08080;
+	border: 1px solid white;
+}
+
+#videos h3{
+	font-weight: 550;
+}
+
+#videos h6 span{
+	color: crimson;
+}
+
+#videos h6{
+	color: #141823;
+}
+
+
+#videos h3::after {
+    content: '';
+    background: #FA8072 ;
+    display: block;
+    height: 2px;
+    width: 195px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
