@@ -62,9 +62,7 @@
 	border-radius: 20px 20px 0px 0px;
 }
 
-button{
-	border-radius: 20px;
-}
+
 
 .intro p{
 	padding: 20px;
@@ -95,4 +93,99 @@ button{
     width: 195px;
     border-radius: 50px;
     margin-top: 10px;
+}
+
+#details
+{
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://cdn.pixabay.com/photo/2012/12/09/00/16/smoke-69124_1280.jpg);
+    padding-top: 50px;
+	border-spacing: 20px;
+	background-size: cover;
+	/*background-attachment: fixed;*/
+	padding-bottom: 50px;
+	color: #555;
+	text-align: center;
+	font-size: 30px;
+}
+#details h3
+{
+	background-size: cover;
+	text-align: center;
+	size: 40px;
+	font-weight: 200;
+	font-style: "Courier New", Courier, monospace; 
+	color: #efefef;
+}
+
+#Contact h1
+{
+	text-align: center;
+	color:  #fff;
+	padding-bottom: 10px;
+}
+#Contact h1::after
+{
+	content: '';
+	background:  crimson;
+	display: block;
+	height: 2px;
+	border-radius: 100%;
+	width: 175px;
+	margin: 15px auto 5px;
+}
+#Contact
+{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://wallpaperplay.com/walls/full/5/e/2/45632.jpg);
+	background-color: #efefef;
+	background-size: cover;
+	background-attachment: fixed;
+	color: #777;
+}
+#Contact form
+{
+	padding: 10px;
+}
+#Contact form-group
+{
+	border-radius: 0;
+	border:none;
+}
+::placeholder
+{
+	color: #FF00FF;
+}
+
+.btn-btn-primary
+{
+	border-radius: 10px;
+	text-align: center;
+	font-size: 15px;
+	padding: 5px;
+	color: #fff;
+	background-color: crimson;
+
+}
+
+.follow
+{
+	padding: 7px;
+	background:#fff;
+	margin:10px;
+	color: #000;
+	border-radius: 10px;
+}
+
+.follow a{
+	color: #D02090 ;
+	font-size: 15px;
+	font-weight: 500px;
+}
+
+.contact-info .fa
+{
+	margin: 10px;
+	color: #D02090 ;
+	font-weight: bold;
 }
