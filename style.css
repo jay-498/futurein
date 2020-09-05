@@ -52,7 +52,8 @@
 {
 	/*background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://wallpaperplay.com/walls/full/5/e/2/45632.jpg);*/
     opacity: 90%;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(space.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(music.jpg);
+    background-size: cover;
 }
 
 .intro h1{
